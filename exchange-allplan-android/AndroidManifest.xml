@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.allplan.exchange.mobile.android.activities"
+    android:versionCode="1"
+    android:versionName="0.0.1-SNAPSHOT" >
+    
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" 
+        android:maxSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+     
+     <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher_exchange"
+        android:label="@string/app_name"
+        android:theme="@style/AllpanExchangeTheme" >
+                  
+	      <activity
+	            android:name=".LoginActivity"
+	            android:windowSoftInputMode="stateHidden"       
+	            android:label="@string/title_activity_login" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+					<category android:name="android.intent.category.LAUNCHER" />
+	            </intent-filter>
+	      </activity>
+	      
+	      <!--
+	      http://developer.android.com/guide/topics/manifest/activity-element.html
+	      android:windowSoftInputMode="adjustResize" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"  -->
+        
+          <activity
+            android:name=".ShowUserOrgsActivity"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateHidden" 
+            android:label="@string/title_activity_orgs" >
+          </activity>
+       
+          <!-- http://www.intridea.com/blog/2011/6/16/android-understanding-activity-launchmode -->
+          <activity
+            android:name=".ShowOrgaProjectsActivity"
+            android:parentActivityName=".ShowUserOrgsActivity"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateHidden" 
+            android:label="@string/title_activity_projects" >
+	        <!-- Parent activity meta-data to support 4.0 and lower -->
+        	<meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ShowUserOrgsActivity" />
+	            
+          </activity>
+           
+          <activity
+            android:name=".ShowOrgaContactsActivity"
+            android:parentActivityName=".ShowUserOrgsActivity"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateHidden" 
+            android:label="@string/title_activity_orga_contacts" >
+        	<!-- Parent activity meta-data to support 4.0 and lower -->
+        	<meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ShowUserOrgsActivity" />
+          </activity>
+          
+          <activity
+            android:name=".ShowProjectContactsActivity"
+            android:parentActivityName=".ShowOrgaProjectsActivity"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateHidden" 
+            android:label="@string/title_activity_project_contacts" >
+        	<!-- Parent activity meta-data to support 4.0 and lower -->
+        	<meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ShowOrgaProjectsActivity" />
+          </activity>
+           
+          <activity
+            android:name=".ShowProjectDocumentsActivity"
+            android:parentActivityName=".ShowOrgaProjectsActivity"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateHidden" 
+            android:label="@string/title_activity_project_documents" >
+        	<!-- Parent activity meta-data to support 4.0 and lower -->
+        	<meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ShowOrgaProjectsActivity" />
+          </activity>
+          
+        <service
+            android:name="com.octo.android.robospice.JacksonSpringAndroidSpiceService"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

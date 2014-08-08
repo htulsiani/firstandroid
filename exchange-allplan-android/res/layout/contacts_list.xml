@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/lightblue">
+	
+	<ListView
+	android:id="@+id/listcontactsview"
+	android:layout_marginLeft="16dp"
+	android:layout_marginRight="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:divider="@null"
+	android:dividerHeight="0dp">
+	</ListView>
+	
+	<TextView
+        android:id="@+id/emptyprojectcontactsview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_project_contacts_list"
+        android:textColor="@color/darkblue"
+        android:textStyle="bold"
+        android:typeface="sans">
+    </TextView>
+	
+	</LinearLayout>
+
+<!--  
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hrg2_1280x768"
+    android:orientation="vertical" >
+    
+	<ListView
+	    android:id="@+id/listcontactsview"
+		android:divider="@color/darkblue60"
+		android:dividerHeight="1dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" /> 
+
+	<TextView
+        android:id="@+id/emptyprojectcontactsview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_project_contacts_list"
+        android:textColor="@color/darkblue"
+        android:textStyle="bold"
+        android:typeface="sans">
+    </TextView>
+    
+</LinearLayout>
+-->

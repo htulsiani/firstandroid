@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">    
+	  <item android:drawable="@drawable/button_shape_shadow"/>  
+	  <item android:drawable="@drawable/button_shape" android:bottom="3px" android:right="2px"/>  
+	  <!-- http://developer.android.com/reference/android/graphics/drawable/BitmapDrawable.html#attr_android:gravity -->
+	  <item>
+	    <bitmap android:src="@drawable/project_icon_nobgr" android:gravity="center" android:antialias="true" />  
+	  </item>
+</layer-list>
+	
+
+

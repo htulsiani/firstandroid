@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Allplan Exchange App</string>
+    <string name="search_hint_text">Type Github username…</string>
+    <string name="search_button_text">Search</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login">Allplan Exchange</string>
+    <string name="title_activity_orgs">My Organizations</string>
+    <string name="title_activity_projects">Organization Projects</string>
+    <string name="title_activity_orga_contacts">Organisation Contacts</string>
+    <string name="title_activity_project_contacts">Project Contacts</string>
+    <string name="title_activity_project_documents">Project Documents</string>
+    
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="teaser">DIGITAL PLAN MANAGEMENT</string>
+      
+    <string name="expirationdate">31.12.2199</string>
+    <string name="expirationdate_label">Expiration date</string>
+    <string name="unlimited">unlimited</string>
+    <string name="freespace">Free space</string>
+    <string name="diskspace">Disk space</string>
+    <string name="totalspace">Total disk space</string>
+    <string name="used">used</string>
+    <string name="free">free</string>
+    
+    <string name="phone">Phone</string>
+    <string name="email">eMail</string>
+    <string name="current_index">Current index</string>
+    <string name="uploadedby">Uploaded by</string>
+    
+    <string name="projectlist_actionbar_subtitle">Project list of organisation:</string>
+    <string name="orgcontactlist_actionbar_subtitle">Contacts of organisation:</string>
+    <string name="projectcontactlist_actionbar_subtitle">Contacts of project:</string>
+    <string name="projectdocumentlist_actionbar_subtitle">Documents of project:</string>
+    
+    <string name="showorgcontacts">Contacts</string>
+    <string name="showprojects">Projects</string>
+    <string name="project">Project</string>
+    <string name="empty_projects_list">No projects found</string>
+    <string name="empty_organizations_list">No organizations found</string>
+    <string name="empty_project_contacts_list">No contacts found for the project</string>
+    <string name="empty_project_documents_list">No documents found for the project</string>
+    <string name="filedownloadinprogress">Downloading file</string>
+    <string name="minsdk">17</string>
+    <string name="targetsdk">19</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_version">Version 0.9</string>
+    
+  <!--  <string name="serveraddress">https://exchange.allplan.com/orgoutputmgmtrestservices/</string> -->
+   <!-- <string name="serveraddress">https://om-test.nemallplan.net/orgoutputmgmtrestservices/</string> --> 
+</resources>
