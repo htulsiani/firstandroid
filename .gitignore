@@ -31,3 +31,4 @@ proguard/
 
 # Logs
 ~logs.txt
+.DS_Store
