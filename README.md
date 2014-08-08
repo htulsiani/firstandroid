@@ -4,8 +4,6 @@ firstandroid
 A very basic android app with  Asynchrous requests to fetch data over REST (using Spring restTemplate), Results are cached with ormlite, callback to activities when the data is loaded, jackson json/object mapping, maven based (for android deployments). All the data loading is in the background service.
 We are using Robospice framework inernally for basic functionality.
 
-A user can login to exchange, view his organizations, view his contacts and download/view the documents. (Supported only pdf and jpg at the moment)
-
 
 Setup:
 
