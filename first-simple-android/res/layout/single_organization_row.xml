@@ -39,7 +39,7 @@
         android:textSize="12sp">
     </TextView>
     
-    <com.allplan.exchange.mobile.android.util.CustomDrawableView
+    <com.first.simple.mobile.android.util.CustomDrawableView
 	    android:id="@+id/customdrawableview" 
 	  	android:layout_width="wrap_content"     
 	    android:layout_height="wrap_content" 

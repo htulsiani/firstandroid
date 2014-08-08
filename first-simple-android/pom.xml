@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.allplan.exchange.android</groupId>
-	<artifactId>exchange-allplan-android</artifactId>
+	<groupId>com.first.simple.android</groupId>
+	<artifactId>first-simple-android</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>apk</packaging>
-	<name>Exchange allplan app</name>
-	<description>A simple andoid app to use exchange allplan REST api.</description>
+	<name>First simple app</name>
+	<description>A simple andoid app to use REST api.</description>
 	
 	<properties>
 		<android.version>4.1.1.4</android.version>
@@ -189,7 +189,7 @@
 		<profile>
 			<id>ant</id>
 			<build>
-			    <finalName>exchange-allplan-android</finalName>
+			    <finalName>first-simple-android</finalName>
 				<plugins>
 					<!-- This configuration is only meant to provide compatibility for ant 
 						users -->

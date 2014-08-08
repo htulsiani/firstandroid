@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Allplan Exchange App</string>
+    <string name="app_name">Simple Rest App</string>
     <string name="search_hint_text">Type Github username…</string>
     <string name="search_button_text">Search</string>
     <string name="hello_world">Hello world!</string>
