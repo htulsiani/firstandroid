@@ -13,8 +13,7 @@ Android SDK:
 Download and install the latest android SDK from : http://developer.android.com/sdk/index.html Now add the android_home and tools path to your profile: 
 
 On linux:
-Open Terminal
-Type vi ~/.bash_profile in command line. It creates it, if its already not there
+Open Terminal and type "vi ~/.bash_profile" .
 Type following in vi editor:
 export PATH=$PATH:<PATH-TO-SDK>/android/sdks/android-sdk-macosx/tools:<PATH-TO-SDK>/android/sdks/android-sdk-macosx/platform-toolsexport ANDROID_HOME=<PATH-TO-SDK>/android/sdks/android-sdk-macosx
 
